@@ -9,7 +9,7 @@ public interface ScanListener {
      *
      * @param result A Bluetooth LE scan result.
      */
-    public void onDeviceScanned(ScanResult result)
+    public void onDeviceScanned(ScanResult result);
 
     /**
      * Callback at end of scan.
