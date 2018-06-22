@@ -1,14 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'aamir'
-            keyPassword 'aamirandroid'
-            storeFile file('/Users/aamir/APKSign')
-            storePassword 'aamirandroid'
-        }
-    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.spectrum.ble.blelibrary"
